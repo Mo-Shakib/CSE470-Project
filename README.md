@@ -1,6 +1,6 @@
 <<<<<<< HEAD
-# Todoist-Clone
-Todoist Clone App using React
+# Todolist App
+Todolist App using React
 =======
 # Getting Started with Create React App
 
