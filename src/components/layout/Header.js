@@ -1,24 +1,21 @@
 import React from 'react';
-import { TbCheckbox } from 'react-icons/tb'
-
+import { BsFillGearFill } from 'react-icons/bs'
+import { IoMdCheckboxOutline } from 'react-icons/io'
+import { Content } from './Content';
 
 export const Header = () => {
-    const [checked, setChecked] = React.useState(false);
-    
+
     return (
-    
     <header className="App-header">
       <nav>
+        
         <div className='logo'>
-            <h1>Logo</h1>
+            <h1><IoMdCheckboxOutline/> Todo App</h1>
+            <img src='logo.png' alt='logo' />
         </div>
+
         <div className='settings'>
-            <ul>
-                <li><TbCheckbox/> Hello</li>
-                <li><TbCheckbox /></li>
-                <li><TbCheckbox /></li>
-                <li><TbCheckbox /></li>
-            </ul>
+            <h1><BsFillGearFill /> Settings</h1>
         </div>
 
         </nav>
