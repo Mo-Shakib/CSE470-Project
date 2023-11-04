@@ -1,7 +1,6 @@
 import React from 'react';
 import { BsFillGearFill } from 'react-icons/bs'
 import { IoMdCheckboxOutline } from 'react-icons/io'
-import { Content } from './Content';
 
 export const Header = () => {
 
