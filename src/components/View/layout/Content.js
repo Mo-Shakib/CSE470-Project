@@ -1,8 +1,8 @@
 import React from "react";
-import { Header } from "./components/layout/Header";
+import { Sidebar } from "./Sidebar";
 
-export const Content = () => {
-    return (
-        <p>ksjd</p>
-    );
-    }
+export const Content = () => (
+    <section>
+        <Sidebar />
+    </section>
+)

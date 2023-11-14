@@ -1,23 +1,16 @@
-import React from 'react';
-import { BsFillGearFill } from 'react-icons/bs'
-import { IoMdCheckboxOutline } from 'react-icons/io'
+import React from "react";
+import { FcTodoList } from "react-icons/fc";
 
 export const Header = () => {
+  const x = 1;
 
-    return (
-    <header className="App-header">
+  return (
+    <header className="header" data-testid="header">
       <nav>
-        
-        <div className='logo'>
-            <h1><IoMdCheckboxOutline/> Todo App</h1>
-            <img src='logo.png' alt='logo' />
+        <div className="logo">
+          <img src="/assets/images/logo.png" alt="Todolist" />
         </div>
-
-        <div className='settings'>
-            <h1><BsFillGearFill /> Settings</h1>
-        </div>
-
-        </nav>
+      </nav>
     </header>
   );
-}
+};
